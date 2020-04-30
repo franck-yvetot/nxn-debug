@@ -1,0 +1,23 @@
+{
+  "name": "@nxn/debug",
+  "version": "1.0.0",
+  "description": "debug service pour nxn",
+  "main": "debug.service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franck-yvetot/nxn-debug.git"
+  },
+  "keywords": [
+    "nxn",
+    "debug"
+  ],
+  "author": "Franck Yvetot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franck-yvetot/nxn-debug/issues"
+  },
+  "homepage": "https://github.com/franck-yvetot/nxn-debug#readme"
+}
