@@ -33,7 +33,7 @@ function factory(category)
     return new DebugService(category||"log");
 }
 
-factory.prototype.init = function(config,app,express) {
+factory.prototype.init = function(config,ctxt) {
     if(config) 
         _config_ = config;
     else
