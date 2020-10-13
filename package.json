@@ -1,6 +1,6 @@
 {
   "name": "@nxn/debug",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "debug service pour nxn",
   "main": "debug.service.js",
   "scripts": {
