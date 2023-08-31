@@ -20,11 +20,16 @@ class DebugService
         debug.setup(_config_);
     }
 
-    log(msg) {
-        this.debug(msg);
+    /**
+     * 
+     * @param  {...any} args list of arguments, strings or objects
+     */
+    log(...args) {
+        this.debug(...args);
     }
-    error(msg) {
-        this.error("ERROR :" +msg);
+
+    error(...args) {
+        this.error(...args);
     }
 }
 
