@@ -11,7 +11,8 @@ class DebugService
         this.error = debug(this.cat+':error');
     }
 
-    init(config,ctxt) {
+    init(config,ctxt) 
+    {
         if(config) 
             _config_ = config;
         else
@@ -24,7 +25,8 @@ class DebugService
      * 
      * @param  {...any} args list of arguments, strings or objects
      */
-    log(...args) {
+    log(...args) 
+    {
         this.debug(...args);
     }
 
